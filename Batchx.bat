@@ -1,5 +1,5 @@
-cd E:\Build_Project\DemoTestNG
-set ProjectPath=E:\Build_Project\DemoTestNG
+cd E:\Build_Project
+set ProjectPath=E:\Build_Project
 echo %ProjectPath%
 set LibPath=E:\Software
 set classpath=%ProjectPath%\bin;%LibPath%\lib\*
