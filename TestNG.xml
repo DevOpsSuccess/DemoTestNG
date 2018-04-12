@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Suite">
+<test name="Learning Jenkins" preserve-order="true">
+<classes>
+ 	<class name="TestNG.DemoTestNGClass">
+       <methods>
+          <include name="GmailLogin" />
+          <include name="LaunchSwarnatheghi" />
+        </methods>
+	</class>
+</classes>
+</test>
+</suite>
